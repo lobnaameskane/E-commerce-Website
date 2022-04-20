@@ -1,0 +1,11 @@
+.nav-link[data-toggle].collapsed:before {
+    content: " ▾";
+}
+
+.nav-link[data-toggle]:not(.collapsed):before {
+    content: " ▴";
+}
+
+.nav-link{
+    color: white;
+}

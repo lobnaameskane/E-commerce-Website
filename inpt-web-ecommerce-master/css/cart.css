@@ -1,0 +1,158 @@
+body {
+    
+    background-color: rgb(0, 0, 34);
+    
+}
+
+.card {
+    max-width: 1000px;
+    margin: 2vh
+}
+
+.card-top {
+    padding: 0.7rem 5rem
+}
+
+.card-top a {
+    float: left;
+    margin-top: 0.7rem
+}
+
+#logo {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6rem
+}
+
+.card-body {
+    padding: 0 5rem 5rem 5rem;
+    
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+@media(max-width:768px) {
+    .card-body {
+        padding: 0 1rem 1rem 1rem;
+        
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+
+    .card-top {
+        padding: 0.7rem 1rem
+    }
+}
+
+.row {
+    margin: 0
+}
+
+.upper {
+    padding: 1rem 0;
+    justify-content: space-evenly
+}
+
+
+.payment {
+    margin: 0;
+    color: black
+}
+.panier {
+    margin: 0;
+    color: blue
+}
+.plus-minus {
+    position: relative
+}
+
+.plus {
+    position: absolute;
+    top: -4px;
+    left: 2px;
+    cursor: pointer
+}
+
+.minus {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    cursor: pointer
+}
+.icons {
+    margin-left: auto
+}
+
+
+form span {
+    color: rgb(179, 179, 179)
+}
+
+form {
+    padding: 2vh 0
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+   
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247)
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.header {
+    font-size: 1.5rem
+}
+
+.left {
+    background-color: #ffffff;
+    padding: 2vh
+}
+
+.left img {
+    width: 2rem
+}
+
+.left .col-4 {
+    padding-left: 0
+}
+
+.right .item {
+    padding: 0.3rem 0
+}
+
+.right {
+    background-color: #ffffff;
+    padding: 2vh
+}
+
+.col-8 {
+    padding: 0 1vh
+}
+
+.lower {
+    line-height: 2
+}
+
+
+
+.link {
+   color: gray; 
+}
+
+.link:hover {
+    color: black;
+    text-decoration: none
+}
+
+input[type=checkbox] {
+    width: unset;
+    margin-bottom: unset
+}
+
+
